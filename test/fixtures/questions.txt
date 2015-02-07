@@ -1,0 +1,27 @@
+Q) How is the CLR implemented?
+* As a set of in-process DLLs loaded into the address space of processes that run managed code
+- As an NT service hosts managed code running on each machine
+- As a local COM server hosts managed code running on each machine
+- As an XML web service
+= foo-fundamentals-m1-02.mp4
+
+Q) What does a managed compiler produce as output?
+* An assembly containing intermediate language (IL) and other metadata
+- A native executable containing processor-specific instructions generated from IL
+- A native dynamic link library containing processor-specific instructions generated from IL
+- A native object code file containing processor-specific instructions generated from IL
+= foo-fundamentals-m1-03.mp4
+
+Q) When does the JIT compiler convert the IL for a type's methods into processor-specific code?
+- At runtime, when the assembly containing the type is loaded
+- At runtime, when an instance of the type is allocated in the heap
+* At runtime, on a method-by-method basis when the method is first invoked
+- At build time, after the managed compiler produces the assembly containing the type
+= foo-fundamentals-m1-04.mp4
+
+Q) The .NET Framework is a managed execution platform consisting of:
+- An execution engine
+* All of the these
+- A set of class libraries
+- A set of standards
+= foo-fundamentals-m1-05.mp4
