@@ -1,6 +1,6 @@
-ps-course
+ps-assessment
 =========
-Intended to be used in creating & validating course *.meta file for [Pluralsight](http://www.pluralsight.com). Specifically you can do the following things with this package:
+Intended to be used in creating & validating a module's assessment question file for [Pluralsight](http://www.pluralsight.com). Specifically you can do the following things with this package:
 
 - create assessment questions pragmatically
 - extract questions from a Pluralsight `*.meta` file format
